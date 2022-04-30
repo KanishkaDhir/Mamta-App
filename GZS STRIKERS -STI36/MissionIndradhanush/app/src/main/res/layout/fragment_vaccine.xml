@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hackathon.missionindradhanush.VaccineDetail$PlaceholderFragment">
+
+    <ImageView
+        android:id="@+id/vaccine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:color/black"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,371 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.hackathon.missionindradhanush.HomeFragment"
+    android:id="@+id/fragContainer"
+    android:background="@drawable/blurimage">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        >
+
+
+
+        <!--***************1nd Row****************-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            >
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardViewChildProfileInsideLogin"
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:layout_margin="10dp"
+                android:alpha="0.9"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:elevation="18dp"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="vertical"
+                android:background="#01CAFF"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Child Profile"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/child"
+                android:layout_gravity="center"
+                />
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardViewNotificationInsideLogin"
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:layout_margin="10dp"
+                android:alpha="0.9"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:elevation="18dp"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="vertical"
+                        android:background="#01CAFF"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Notification"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+
+
+                    </LinearLayout>
+
+
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/noti"
+                        android:layout_gravity="center"
+                        />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+
+
+        <!--***************2nd Row****************-->
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            >
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardViewMapsInsideLogin"
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:layout_margin="10dp"
+                android:alpha="0.9"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:elevation="18dp"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="vertical"
+                        android:background="#01CAFF"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Maps"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/maps"
+                        android:layout_gravity="center"
+                        />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardViewStatiticsInsideLogin"
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:layout_margin="10dp"
+                android:alpha="0.9"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:elevation="18dp"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="vertical"
+                        android:background="#01CAFF"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Summary"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/stats_graph"
+                        android:layout_gravity="center"
+                        />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+        <!--***************3nd Row****************-->
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            >
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardViewVaccinationDetailsInsideLogin"
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:layout_margin="10dp"
+                android:alpha="0.9"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:elevation="18dp"
+                android:visibility="invisible"
+
+                app:cardCornerRadius="30dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="vertical"
+                        android:background="#01CAFF"
+
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Vaccine Guide"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/injection"
+                        android:layout_gravity="center"
+                        />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardViewQuickLinksInsideLogin"
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:layout_margin="10dp"
+                android:alpha="0.9"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:elevation="18dp"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="vertical"
+                        android:background="#01CAFF"
+
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Quick Links"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/quick_link"
+                        android:layout_gravity="center"
+                        />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</FrameLayout>

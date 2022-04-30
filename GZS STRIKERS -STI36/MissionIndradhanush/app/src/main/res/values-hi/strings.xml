@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <string name="email">ईमेल@उदाहरण.com</string>
+    <string name="password">पासवर्ड</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="forgot">पासवर्ड भूल गए?</string>
+    <string name="account">क्या आपका कोई खाता नहीं है?</string>
+    <string name="signup">साइन अप करें</string>
+
+
+
+
+
+
+
+
+</resources>
